@@ -1,0 +1,52 @@
+:root {
+    font-size: 16px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  a {
+    color: red;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+  .credits{
+    position:absolute;
+    width:100%;
+    margin: auto;
+    bottom:0;
+    margin-bottom:20px;
+    font-family:'Open Sans', sans-serif;
+    color:#328685;
+    font-size:1em;
+    text-align : center;
+  }
+  .credits a {
+    color:#328685;
+  }
+  
+  .credits a:hover {
+    color:#630d15;
+  }
+  
+  .name {
+    position:absolute;
+    width:100%;
+    margin: auto;
+    bottom:0;
+    margin-bottom:100px;
+    font-family:'Open Sans', sans-serif;
+    color:#328685;
+    font-size:2em;
+    text-align : center;
+  }
